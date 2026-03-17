@@ -3,31 +3,25 @@ name: Deploy GitBook to GitHub Pages
 on:
   push:
     branches:
-      - main
-      - master
-
-  workflow_dispatch:
-
-permissions:
-  contents: write
+      - zdocs  # 根据实际分支修改
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '20' # 建议使用 LTS 版本
+          cache: 'npm'
 
-      - name: Install honkit
-        run: npm install -g honkit
-
-      - name: Build GitBook
-        run: honkit build . _book
+      - name: Install and Build
+        run: |
+          npm install honkit --save-dev
+          npx honkit build # 构建
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
