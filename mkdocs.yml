@@ -1,0 +1,46 @@
+site_name: ZooFi Docs
+site_url: https://shawnshi933933.github.io/zoofidoc/
+site_description: ZooFinance 项目文档
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: 切换深色模式
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 切换浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+
+docs_dir: .
+
+nav:
+  - 首页: README.md
+  - 目录总览: SUMMARY.md
+  - Active Vaults: active-vaults/
+  - Berachain Eco: berachain-eco/
+  - LNT Vault: lnt-vault/
+  - LVT Vault: lvt-vault/
+  - Security: security/
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
+
+plugins:
+  - search
