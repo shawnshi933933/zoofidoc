@@ -1,0 +1,10 @@
+# Background
+
+The crypto fundraising landscape has evolved from the early days of ICOs to various forms like IEOs and IDOs. These models provided convenience for early-stage projects and accessible fundraising channels. However, from a regulatory perspective, the lack of structure in these early models led to rampant scams, misinformation, and significant losses for investors.
+
+Today, the industry is increasingly moving towards compliance, making fundraising under a sound framework more crucial than ever. **Initial Node Offering (INO)** has emerged as a novel fundraising model for crypto projects. In this model, node operating rights are presold to community contributors via a complete KYC process, clearly distinguishing between pure investors and contributors.
+
+\
+Furthermore, INO uses participant segmentation to match users with different risk appetites and engagement levels, minimizing speculative behavior and deepening long-term holders' understanding of the project. Compared to early models, INOs are inherently more compliant. Many projects have already adopted similar solutions. Our mission is to systematize and standardize INO processes, offering projects a plug-and-play service so that teams can focus on building without the burden of designing a compliant fundraising flow from scratch.&#x20;
+
+We believe the two key challenges facing the current INO market are **asset liquidity** and **participant engagement**. INOs are not mere token sales — participants purchase functional rights tied to node operation, which entitles them to future token rewards. This creates a liquidity bottleneck: early assets are illiquid, and the technical complexity of operating nodes raises the barrier to entry, ultimately reducing participation rates. However, broad participation and strong community consensus are vital for decentralized projects. To resolve this tension, we have designed the **Liquid Node Token (LNT)** protocol — a solution tailored for INO models that injects liquidity into node-based assets and significantly improves user accessibility.

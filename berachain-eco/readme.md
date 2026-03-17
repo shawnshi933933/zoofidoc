@@ -1,0 +1,9 @@
+# Background
+
+Berachain is an innovative blockchain platform that enhances the decentralized finance (DeFi) ecosystem through its unique consensus mechanism and economic model. It distinguishes itself from other blockchain networks by utilizing Proof-of-Liquidity (PoL), a novel approach combining Proof-of-Stake (PoS) and liquidity provision. This model encourages participants to contribute liquidity to the network, fostering a more dynamic and liquid DeFi environment.
+
+The native token of Berachain, Bera Governance Token (BGT), which are rewarded to liquidity providers and then used to delegate to validators responsible for securing the network. This system not only incentivizes liquidity but also democratizes network governance by distributing decision-making power based on active contribution rather than mere wealth. However, BGT is a non-transferable governance token that’s forever bound to the address that earns it, there remains significant potential to enhance BGT’s liquidity further and unlock greater value within the Berachain ecosystem.
+
+Given this context, there is a substantial opportunity to develop DeFi projects that leverage Berachain's PoL economic model to bolster BGT's liquidity and usability. By creating innovative DeFi derivatives and liquidity pools specifically designed for BGT, we can enhance the token’s utility and attractiveness to both liquidity providers and traders. This approach not only strengthens the overall liquidity of the Berachain network but also opens up new financial products and strategies for users, thus driving greater engagement and adoption within the ecosystem.
+
+Our proposed DeFi project aims to capitalize on these opportunities by introducing advanced liquidity mechanisms and derivative products tailored for Berachain. These initiatives will create new avenues for yield generation, and support the sustainable growth of the Berachain DeFi ecosystem.
